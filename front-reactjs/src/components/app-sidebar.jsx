@@ -84,6 +84,10 @@ export function AppSidebar({ ...props }) {
             title: "Edição de equipamento",
             url: "/equipamento-edicao",
           },
+          {
+            title: "Gestão Equipamentos",
+            url: "/gestao-recursosala"
+          }
         ],
       },
     ],
