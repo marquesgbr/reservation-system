@@ -9,6 +9,7 @@ import "./index.css";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "./output.css";
+import EquipmentManagement from "./pages/EquipManagement/EquipManagement";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/gestao-salas" element={<RoomsManagement />} />
         <Route path="/sala-cadastro" element={<CreateRoom />} />
         <Route path="/editar-sala/:id" element={<EditRoom />} />
+        <Route path="/gestao-recursosala" element={<EquipmentManagement />}/>
       </Routes>
       <ToastContainer />
     </Router>
